@@ -26,7 +26,7 @@ df2 = pd.DataFrame(
 
 def test_init_ok():
   pd_ops = pandas_operations(df1,df2)
-  assert pd_ops.df1 = df1
-  assert pd_ops.df2 = df2
+  assert pd_ops.df1 == df1
+  assert pd_ops.df2 == df2
   
   
