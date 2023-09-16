@@ -12,7 +12,7 @@ jobs:
               pip install -r requirements.txt
               pip install -r requirements-test.txt
       - run: |
-              cd tests
+              cd tests/
               python -m pytest test_main.py
               
       
