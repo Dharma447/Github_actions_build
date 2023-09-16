@@ -14,7 +14,7 @@ df1 = pd.DataFrame(
             index=[0, 1, 2, 3],
         )
 
-  df2 = pd.DataFrame(
+df2 = pd.DataFrame(
           {
               "A": ["A4", "A5", "A6", "A7"],
               "B": ["B4", "B5", "B6", "B7"],
