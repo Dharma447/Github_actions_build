@@ -3,8 +3,7 @@ sys.path.insert(0, '../src')
 import pytest
 import pandas as pd
 
-from src.main import pandas_operations
-
+from main import pandas_operations
 
 df1 = pd.DataFrame(
             {
@@ -30,5 +29,9 @@ def test_init_ok():
   pd_ops = pandas_operations(df1,df2)
   assert pd_ops.df1 == df1
   assert pd_ops.df2 == df2
-  
-  
+
+def test_init_pass():
+  pass
+
+
+            
