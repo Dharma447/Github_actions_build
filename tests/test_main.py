@@ -5,6 +5,7 @@ import pandas as pd
 
 from main import pandas_operations
 
+
 df1 = pd.DataFrame(
             {
                 "A": ["A0", "A1", "A2", "A3"],
@@ -29,9 +30,5 @@ def test_init_ok():
   pd_ops = pandas_operations(df1,df2)
   assert pd_ops.df1 == df1
   assert pd_ops.df2 == df2
-
-def test_init_pass():
-  pass
-
-
-            
+  
+  
