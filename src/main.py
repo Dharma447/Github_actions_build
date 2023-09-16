@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 class pandas_operations:
 
   def __init__(self, df1, df2):
@@ -7,5 +8,5 @@ class pandas_operations:
     self.df2 = df2
 
   def return_concate(self):
-    return pd.concate(self.df1,self.df2)
+    return pd.concat(self.df1, self.df2)
     
