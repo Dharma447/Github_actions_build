@@ -3,7 +3,7 @@ sys.path.insert(0, '../src')
 import pytest
 import pandas as pd
 
-from src.main import pandas_operations
+from main import pandas_operations
 
 
 df1 = pd.DataFrame(
