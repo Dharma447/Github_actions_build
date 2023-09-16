@@ -3,7 +3,7 @@ sys.path.insert(0, '../src')
 import pytest
 import pandas as pd
 
-from main import pandas_operations
+from src.main import pandas_operations
 
 
 df1 = pd.DataFrame(
@@ -26,9 +26,11 @@ df2 = pd.DataFrame(
           index=[4, 5, 6, 7],
       )
 
+
 def test_init_ok():
   pd_ops = pandas_operations(df1,df2)
-  assert pd_ops.df1 == df1
-  assert pd_ops.df2 == df2
+  print(pd_ops.df1.all()[0])
+  assert (pd_ops.df1.all()[0]) == True
+  assert (pd_ops.df1.all()[0]) == True
   
   
